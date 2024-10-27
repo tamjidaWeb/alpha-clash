@@ -41,6 +41,9 @@ function handleKeyboardButtonPress(event){
     }
     else{
         console.log('lose a point');
+        //step 1: get the current life number
+        // step: reduce the life count
+        // step3: display the updated life 
     }
 
 }
