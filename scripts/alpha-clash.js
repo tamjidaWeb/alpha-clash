@@ -21,6 +21,8 @@ function handleKeyboardButtonPress(event){
         console.log('you have pressed correctly ', expectedAlphabet);
         //update score:
         //1. get the curreny scoore
+        const currentScoreElement = document.getElementById('current-score');
+        
         //2. increase the score by 1
         //3. show the updated score
 
