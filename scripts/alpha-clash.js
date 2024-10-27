@@ -42,8 +42,13 @@ function handleKeyboardButtonPress(event){
     else{
         console.log('lose a point');
         //step 1: get the current life number
+        const currentLifeElement = document.getElementById('current-life');
+        const currentLifeText = currentLifeElement.innerText;
+        const currentLife = parseInt(currentLife);
         // step: reduce the life count
+        const newLife = currentLife - 1;
         // step3: display the updated life 
+        currentLifeElement.innerText = newLife;
     }
 
 }
