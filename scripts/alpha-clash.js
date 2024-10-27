@@ -19,6 +19,16 @@ function handleKeyboardButtonPress(event){
     if( expectedAlphabet === playerPressed){
         console.log('you got a point');
         console.log('you have pressed correctly ', expectedAlphabet);
+        //update score:
+        //1. get the curreny scoore
+        //2. increase the score by 1
+        //3. show the updated score
+
+        //start a new round
+
+        
+        
+        
         removeHighlightColorById(expectedAlphabet);
         continueGame();
     }
@@ -30,9 +40,6 @@ function handleKeyboardButtonPress(event){
     
 //captured keyboard key press
 document.addEventListener('keyup',handleKeyboardButtonPress);
-
-
-
 
 
 function continueGame(){
